@@ -34,7 +34,11 @@ class Main extends CI_Controller {
 
 
 	public function index() {
-		if ($this->session->userdata ( 'logged_in' )) {
+        
+        if(isset($_GET['usr']) && isset($_GET['pass'])){
+           $this->load->view('base/login/login_view');
+       }
+		elseif ($this->session->userdata ( 'logged_in' )) {
 			$session_data = $this->session->userdata ( 'logged_in' );
             $route = $this->verify_usr( $session_data ['username']);
 			$content = array (

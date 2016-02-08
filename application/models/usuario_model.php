@@ -6,6 +6,7 @@ class Usuario_model extends CI_Model {
         parent::__construct();
     }
 
+
     function get_usr_data($username) {
 
         $this->db->select('use_username, use_nombre, use_rol_id');
@@ -22,11 +23,14 @@ class Usuario_model extends CI_Model {
 
     function get_all_usr_data($username) {
        $query = $this->db->query("select users.use_username, users.use_nombre, users.use_email, users.use_fecha_registro,users.use_apellido, use_rol.use_rol_nombre, use_rol.use_rol_id, 
-use_student.use_stu_datebirth, use_level.use_level 
-from users  inner join use_student on use_student.use_username=users.use_username
+use_student.use_stu_datebirth, use_level.use_level, use_ls.use_ls_learningstyle, use_ls.use_ls_description
+from users  
+inner join use_student on use_student.use_username=users.use_username
 inner join use_level on cast(use_level.use_id_level as text)=use_student.use_stu_level
+left join use_ls on use_ls.use_ls_id=use_student.use_ls_id
 inner join use_rol on use_rol.use_rol_id=users.use_rol_id
 where users.use_username='".$username."'");
+
 
         return $query->result_array();
     }
@@ -175,7 +179,7 @@ if ($this->input->post('cantidad6')!='') {
         $data = array(
             'use_username' => $this->input->post('username'),
             'use_stu_datebirth' => $this->input->post('fecha_nac'),
-            'use_ls_id' => $result_text,
+            'use_ls_id' => $result_test,
             'use_stu_level' => $this->input->post('nevel_ed'),
             'use_ls_cant_V' => $cantidad1,
             'use_ls_cant_A' => $cantidad2,
@@ -340,6 +344,26 @@ if ($this->input->post('cantidad6')!='') {
         return $query->result_array();
     }
 
+    /*
+    function update_test($estilo,$cant_V,$cant_A,$cant_R,$cant_K,$cant_G,$cant_S, $id) {
+
+        $data = array(
+            'use_ls_id' => $estilo
+            'use_ls_cant_V' => $cant_V
+            'use_ls_cant_R' => $cant_R
+            'use_ls_cant_A' => $cant_A
+            'use_ls_cant_K' => $cant_K
+            'use_ls_cant_G' => $cant_G
+            'use_ls_cant_S' => $cant_S
+        );
+
+        $this->db->where('use_username', $id);
+        $this->db->update('use_student', $data);
+    }
+
+
+
+*/
 
 
 

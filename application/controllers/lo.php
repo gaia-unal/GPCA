@@ -13,6 +13,16 @@ Class Lo extends CI_Controller {
         echo 'algo';
     }
 
+    public function busqueda(){
+        $content = array(
+            "main_view" => "shared_views/busqueda_avanzada_view",
+               // "url" => "usuario/acerca/"
+        );
+        $this->load->view('base/base_template', $content);
+
+
+    }
+
     public function buscar_lo($params, $sess, $user) {
         $params = urldecode($params);
         $params = preg_replace('/_+/', '_', $params);

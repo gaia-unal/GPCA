@@ -6,13 +6,32 @@
         <div class="col-lg-12" style="display: none;" id="hide-s">
 
             <div class="input-group  m-bot15">
-                <span class="input-group-btn">
-                    <button class="btn btn-success buscar" type="button">Buscar</button>
-                </span>
-                <input type="text" class="form-control" id="hide-input" autofocus="">
+                <label> 
+                    <button class="btn btn-success buscar" type="button" style="margin-left: 0px;">Buscar</button>
+                <input type="text" class="form-control" id="hide-input" autofocus="" style="margin-left: 70px;margin-top: -50px;"></label>
+
+                
 
             </div>
+<script type="text/javascript">
 
+function url(){
+        var url= location.search.replace("?", "");
+        var variable="val=";
+        var palabra="";
+        palabra = url.substring(4);
+        palabra = palabra.replace(/%20/gi," ");
+        return(palabra);
+    }
+</script>
+
+ <script>
+
+        var params=val();
+           $("#result").load("<?php echo base_url(); ?>index.php/lo/buscar_lo/" + params + "/" + <?php echo $sess ?> + "/" + "<?php echo $usr ?>");
+       }
+
+</script>
 
 
         </div>
@@ -39,10 +58,12 @@
 
                             <div class="col-sm-10">
                                 <div class="input-group  m-bot15">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-success buscar" type="button">Buscar</button>
-                                    </span>
-                                    <input type="text" class="form-control" id="search" autofocus="">
+                                    
+                                    <label> <button class="btn btn-success buscar" type="button" style="margin-left: 110px;">Buscar</button>
+                                    <input type="text" class="form-control" id="search" autofocus="" style="margin-left: 180px;margin-top: -53px;"></label>
+                                    <!--<a data-toggle="" class="" href="<?php echo base_url()?>lo/busqueda" style="position: relative;top: 30px;left: -200px;">
+                                    <span class="username"><button class="btn btn-success buscar" type="button">Busqueda Avanzada</button></span>
+                                    </a>-->
                                 </div>
                             </div>
                             <div class="col-sm-1"></div>

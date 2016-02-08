@@ -3,6 +3,14 @@
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" id="nav-accordion">
+
+                  <li>
+                      <a href="<?php echo base_url()?>usuario/registro" >
+                          <i class="icon-user"></i>
+                          <span>Crear una cuenta</span>
+                      </a>
+                  </li>
+
                   <li>
                       <a  href="<?php echo base_url()?>">
                           <i class="icon-search"></i>
@@ -56,18 +64,12 @@
                       </a>
                   </li>
                   <li>
-                      <a href="http://portal.manizales.unal.edu.co/gta/gaia/" >
+                      <a href="http://froac.manizales.unal.edu.co/GAIA/" >
                           <i class="icon-info"></i>
                           <span>GAIA</span>
                       </a>
                   </li>
-                  <li>
-                      <a href="<?php echo base_url()?>usuario/registro" >
-                          <i class="icon-user"></i>
-                          <span>Crear una cuenta</span>
-                      </a>
-                  </li>
-
+                  
               </ul>
               <!-- sidebar menu end-->
           </div>

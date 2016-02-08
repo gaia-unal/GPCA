@@ -3,14 +3,18 @@
 <section id="main-content">
     <section class="wrapper">
         <br>
-        <div class="col-lg-12" style="display: none;" id="hide-s">
+        <div class="col-lg-12" style="display: none;position: relative;top: 500px" id="hide-s">
+
+            <span class="input-group-btn">
+                    <button class="btn btn-success busqueda" type="button">Busqueda Avanzada</button>
+                </span>
 
             <div class="input-group  m-bot15">
                 <span class="input-group-btn">
-                    <button class="btn btn-success buscar" type="button">Buscar</button>
+                    <button class="btn btn-success buscar" type="button">Buscarhhhh</button>
                 </span>
                 <input type="text" class="form-control" id="hide-input" autofocus="">
-
+                
             </div>
 
 

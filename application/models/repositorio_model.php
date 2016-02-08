@@ -4,6 +4,14 @@ Class Repositorio_model extends CI_Model{
     
     
     function get_repos(){
+       $this->db->select('*');
+       $this->db->from('repository');
+       $this->db->order_by('rep_id', 'asc');
+       $query =  $this->db->get();
+       return $query->result_array();
+    }
+
+    function get_repos2(){
        $query =  $this->db->get("repository");
        return $query->result_array();
     }
@@ -110,6 +118,13 @@ Class Repositorio_model extends CI_Model{
             $this->db->where($campos[$i], $valores[$i]);
         }
         $this->db->update($tabla, $data);
+    }
+    public function get_cantlo_repo($rep_id) {
+        $this->db->select('*');
+        $this->db->from('lo');
+        $this->db->where('rep_id', $rep_id);
+		$query = $this->db->get();
+        return $query->num_rows();
     }
 
 }

@@ -51,6 +51,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'postgres';
 $db['default']['password'] = 'luis';
+//$db['default']['password'] = '%froac$';
 //$db['default']['database'] = 'froacn';
 $db['default']['database'] = 'froacN';
 $db['default']['dbdriver'] = 'postgre';
