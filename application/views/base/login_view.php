@@ -9,7 +9,7 @@
         <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
         <link rel="shortcut icon" href="img/favicon.png">
 
-        <title>FROAC | Login</title>
+        <title>gpca | Login</title>
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo base_url() ?>asset/css/bootstrap.min.css" rel="stylesheet">

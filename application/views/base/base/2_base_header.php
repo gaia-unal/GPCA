@@ -93,35 +93,16 @@
         </div>
     </div>
 
-
-
     </header>
     <br>
       
       <div class="header white-bg col-lg-12" >
         
         
-            <div class="sidebar-toggle-box">
-                <div data-original-title="Oculta barra lateral" data-placement="right" class="icon-reorder tooltips"></div>
-            </div>
-            <!--logo start-->
-            <a href="<?php echo base_url()?>" class="logo tooltips"  data-placement="right" ><span>FROAC</span></a>
+           <div class="sidebar-toggle-box">
+                
+            <a href="<?php echo base_url()?>" class="logo tooltips"  data-placement="right" ><span>GPCA</span></a>
             <!--logo end-->
-         
-             <div class="top-nav ">
-                <!--search & user info start-->
-                <ul class="nav pull-right top-menu">
-                  
-                    <!-- user login dropdown start-->
-                    <li class="dropdown">
-                        <a data-toggle="" class="" href="<?php echo base_url()?>login" style="position: relative;margin-left: 72em;margin-top:-3em;">
-                            <span class="username">Iniciar sesión</span>
-                        </a>
-                        
-                    </li>
-                    <!-- user login dropdown end -->
-                </ul>
-                <!--search & user info end-->
             </div>
         
         </div> 

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+s<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a44007-341f-405e-a406-1e7117695fa5" name="Default" comment="" />
-    <ignored path="froac.iws" />
+    <ignored path="gpca.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="froac" />
+    <favorites_list name="gpca" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -222,27 +222,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -252,11 +252,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -270,11 +270,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -292,11 +292,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,11 +310,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="froac" />
+              <option name="myItemId" value="gpca" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -530,7 +530,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/froac_bd_test_1.public.lo">
+    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/gpca_bd_test_1.public.lo">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
       </provider>
@@ -538,7 +538,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/froac_bd_test_1.public.use_rol">
+    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/gpca_bd_test_1.public.use_rol">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162" />
       </provider>
@@ -546,7 +546,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/froac_bd_test_1.public.users">
+    <entry file="dbDummy://dbtable:/3b1cef3b/8c573a16-f98a-48f9-b294-cd7df28ebc2a/gpca_bd_test_1.public.users">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
       </provider>

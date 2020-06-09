@@ -4,7 +4,7 @@
     <ul class="toggle">       
         <li class="icn_add_user"><a href="<?php echo base_url() ?>adm_repo/nuevo_usuario_repo/">Agregar Nuevo Usuario</a></li>
         <li class="icn_view_users"><a href="<?php echo base_url() ?>adm_repo/lista_users_repos/">Lista Usuarios Repositorios</a></li>        
-        <li class="icn_view_users"><a href="<?php echo base_url() ?>adm_repo/lista_users_froac/">Listar Usuarios FROAC</a></li>        
+        <li class="icn_view_users"><a href="<?php echo base_url() ?>adm_repo/lista_users_gpca/">Listar Usuarios gpca</a></li>        
     </ul>
 
     <h3>Gestionar ROAs</h3>
@@ -24,6 +24,6 @@
 
     <footer>
         <hr />
-        <p><strong>Copyright &copy; 2013  FROAC</strong></p>
+        <p><strong>Copyright &copy; 2013  gpca</strong></p>
     </footer>
 </aside><!-- end of sidebar -->

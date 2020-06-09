@@ -13,7 +13,7 @@ class Main extends CI_Controller {
 	 * Controlador inicial, configurado en routes.php
 	 */
 
-    function verify_usr($username){
+   /* function verify_usr($username){
         $rol = $this->usuario_model->get_rol ($username);
         if ($rol [0] ['use_rol_id'] == 1) {
             $route = "admin";
@@ -30,41 +30,18 @@ class Main extends CI_Controller {
         }
 
         return $route;
-    }
+    }*/
 
 
 	public function index() {
         
-        if(isset($_GET['usr']) && isset($_GET['pass'])){
-           $this->load->view('base/login/login_view');
-       }
-		elseif ($this->session->userdata ( 'logged_in' )) {
-			$session_data = $this->session->userdata ( 'logged_in' );
-            $route = $this->verify_usr( $session_data ['username']);
-			$content = array (
-					"user" => $session_data ['username'],
-					"usr_data" => $this->usuario_model->get_usr_data ( $session_data ['username'] ),
-					"main_view" => "shared_views/init_view",
-                    "total_user" => $this->admin_model->get_total_user(),
-                    "total_rep" => $this->admin_model->get_total_rep(),
-                    "total_lo" => $this->admin_model->get_total_lo(),
-                    "total_lo_score" => $this->admin_model->get_total_lo_score(),
-			)
-			;
-			$this->load->view ( 'base/'.$route.'_template', $content );
-		}else{
-
             $content = array (
-                "main_view" => "shared_views/init_view",
-                "total_user" => $this->admin_model->get_total_user(),
-                "total_rep" => $this->admin_model->get_total_rep(),
-                "total_lo" => $this->admin_model->get_total_lo(),
-                "total_lo_score" => $this->admin_model->get_total_lo_score(),
+                "main_view" => "base/init_view",
             )
             ;
             $this->load->view ( 'base/base_template', $content );
 
-        }
+
 	}
 }
 

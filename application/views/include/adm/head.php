@@ -21,14 +21,14 @@
         <script type="text/javascript" src="<?php echo base_url() ?>css/adm/js/jquery.equalHeight.js"></script>
         <meta property="og:site_name" content="Federación de Repositorios de Objetos de Aprendizaje" />
 
-        <meta property="og:url" content="http://froac.manizales.unal.edu.co/froac/" />
+        <meta property="og:url" content="http://gpca.manizales.unal.edu.co/gpca/" />
         <meta property="og:title" content="Federación de Repositorios de Objetos de Aprendizaje" />
 
         <meta name="geo.region" content="CO" />
         <meta name="Language" content="Spanish" />
 
-        <meta name="description" content="FROAC es la sigla en español de la Federación de Repositorios de Objetos de Aprendizaje de Colombia, que surge como resultado del proyecto de investigación financiado por COLCIENCIAS titulado: “ROAC Creación de un modelo para la Federación de OA en Colombia que permita su integración a confederaciones internacionales”, de la Universidad Nacional de Colombia, con código 1119-521-29361."/>
-        <meta name="keywords" content="Federación Repositorios de Objetos de Aprendizaje, Objetos de Aprendizaje, Universidad Nacional de Colombia, Manizales, Material Educativo, Estilos de aprendizaje, Recursos educativos, Educación, IEEE-LOM, Metadatos, FROAC"/>
+        <meta name="description" content="gpca es la sigla en español de la Federación de Repositorios de Objetos de Aprendizaje de Colombia, que surge como resultado del proyecto de investigación financiado por COLCIENCIAS titulado: “ROAC Creación de un modelo para la Federación de OA en Colombia que permita su integración a confederaciones internacionales”, de la Universidad Nacional de Colombia, con código 1119-521-29361."/>
+        <meta name="keywords" content="Federación Repositorios de Objetos de Aprendizaje, Objetos de Aprendizaje, Universidad Nacional de Colombia, Manizales, Material Educativo, Estilos de aprendizaje, Recursos educativos, Educación, IEEE-LOM, Metadatos, gpca"/>
         <script type="text/javascript">
 
             var _gaq = _gaq || [];

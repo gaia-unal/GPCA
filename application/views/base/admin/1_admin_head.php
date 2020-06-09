@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="img/favicon.png">
         <link href="<?php echo base_url() ?>/asset/img/frog1.png" rel="icon" />
 
-        <title>FROAC</title>
+        <title>gpca</title>
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo base_url() ?>asset/css/bootstrap.min.css" rel="stylesheet">

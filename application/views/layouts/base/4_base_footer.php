@@ -5,7 +5,7 @@
       <!--footer start
       <footer class="site-footer">
           <div class="text-center">
-              2014 | FROAC.
+              2014 | gpca.
               <a href="#" class="go-top">
                   <i class="icon-angle-up"></i>
               </a>

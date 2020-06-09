@@ -14,7 +14,7 @@ $('#2').hide();
 </script>
 <div class="art-postcontent">
     <h1>Registro exitoso !!</h1><br>
-    <h4>Bienvenido a FROAC, <?php echo $name ?></h4>
+    <h4>Bienvenido a gpca, <?php echo $name ?></h4>
     <br>
     <form autocomplete="off" action="<?php echo base_url() ?>index.php/usuario/check" method="post" name="login" id="form-login" >
 

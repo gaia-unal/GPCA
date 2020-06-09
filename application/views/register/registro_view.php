@@ -217,7 +217,7 @@ hidden<script type="text/javascript">
                 <div class="col-lg-12">
                     <section class="panel">
                         <header   class="panel-heading">
-                            Crear cuenta en FROAC
+                            Crear cuenta en gpca
                         </header>
 
                         <!--FORMULARIO DE REGISTRO DE USUARIO-->
@@ -273,7 +273,7 @@ hidden<script type="text/javascript">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="username">Nombre de usuario:</label>
-                                                    <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario unico en FROAC" required>
+                                                    <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario unico en gpca" required>
                                                 </div>
                                                 <div id="in_use" class="alert alert-block alert-danger fade in">
                                                     <button data-dismiss="alert" class="close close-sm" type="button">
@@ -391,15 +391,15 @@ hidden<script type="text/javascript">
                                     <strong>•   ¿Cuál de los siguientes textos puede comprender con mayor facilidad?</strong>
 
                                     <div class="row col-md-12">
-                                        <INPUT TYPE=radio id="81" NAME="8" estado="0" value="1.1"><span style="font-size: 1.1em">Federación de Repositorios de Objetos de Aprendizaje Colombia – FROAC</span>
+                                        <INPUT TYPE=radio id="81" NAME="8" estado="0" value="1.1"><span style="font-size: 1.1em">Federación de Repositorios de Objetos de Aprendizaje Colombia – gpca</span>
                                         <div class="row col-md-12">
-                                            <INPUT TYPE=radio id="82" NAME="8" estado="0" value="1.3"><span style="font-size: 1.3em">Federación de Repositorios de Objetos de Aprendizaje Colombia – FROAC</span>
+                                            <INPUT TYPE=radio id="82" NAME="8" estado="0" value="1.3"><span style="font-size: 1.3em">Federación de Repositorios de Objetos de Aprendizaje Colombia – gpca</span>
                                         </div>
                                         <div class="row col-md-12">
-                                            <INPUT TYPE=radio id="83" NAME="8" estado="0" value="1.7"> <span style="font-size: 1.7em">Federación de Repositorios de Objetos de Aprendizaje Colombia – FROAC</span>
+                                            <INPUT TYPE=radio id="83" NAME="8" estado="0" value="1.7"> <span style="font-size: 1.7em">Federación de Repositorios de Objetos de Aprendizaje Colombia – gpca</span>
                                         </div>
                                         <div class="row col-md-12">
-                                            <INPUT TYPE=radio id="84" NAME="8" estado="0" value="2.0"> <span style="font-size: 2.0em">Federación de Repositorios de Objetos de Aprendizaje Colombia – FROAC</span>
+                                            <INPUT TYPE=radio id="84" NAME="8" estado="0" value="2.0"> <span style="font-size: 2.0em">Federación de Repositorios de Objetos de Aprendizaje Colombia – gpca</span>
                                         </div>
                                     </div>
                                 </div>

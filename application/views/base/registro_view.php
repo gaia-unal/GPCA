@@ -174,7 +174,7 @@
           <div class="col-lg-12">
             <section class="panel">
               <header class="panel-heading">
-                Crear cuenta en FROAC
+                Crear cuenta en gpca
               </header>
               <div class="panel-body">
                <div class="row">
@@ -212,7 +212,7 @@
                         </div>
                         <div class="form-group">
                           <label for="username">Nombre de usuario:</label>
-                          <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario unico en FROAC" required>
+                          <input type="text" class="form-control" id="username" name="username" placeholder="Nombre de usuario unico en gpca" required>
                         </div> 
                         <div id="in_use" class="alert alert-block alert-danger fade in">
                           <button data-dismiss="alert" class="close close-sm" type="button">

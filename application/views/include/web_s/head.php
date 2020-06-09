@@ -14,14 +14,14 @@
         <script type="text/javascript" src="<?php echo base_url() ?>lib/raty/lib/jquery.raty.min.js"></script>
         <meta property="og:site_name" content="Federación de Repositorios de Objetos de Aprendizaje" />
 
-        <meta property="og:url" content="http://froac.manizales.unal.edu.co/froac/" />
+        <meta property="og:url" content="http://gpca.manizales.unal.edu.co/gpca/" />
         <meta property="og:title" content="Federación de Repositorios de Objetos de Aprendizaje" />
 
         <meta name="geo.region" content="CO" />
         <meta name="Language" content="Spanish" />
 
-        <meta name="description" content="FROAC es la sigla en español de la Federación de Repositorios de Objetos de Aprendizaje de Colombia, que surge como resultado del proyecto de investigación financiado por COLCIENCIAS titulado: “ROAC Creación de un modelo para la Federación de OA en Colombia que permita su integración a confederaciones internacionales”, de la Universidad Nacional de Colombia, con código 1119-521-29361."/>
-        <meta name="keywords" content="Federación Repositorios de Objetos de Aprendizaje, Objetos de Aprendizaje, Universidad Nacional de Colombia, Manizales, Material Educativo, Estilos de aprendizaje, Recursos educativos, Educación, IEEE-LOM, Metadatos, FROAC" />
+        <meta name="description" content="gpca es la sigla en español de la Federación de Repositorios de Objetos de Aprendizaje de Colombia, que surge como resultado del proyecto de investigación financiado por COLCIENCIAS titulado: “ROAC Creación de un modelo para la Federación de OA en Colombia que permita su integración a confederaciones internacionales”, de la Universidad Nacional de Colombia, con código 1119-521-29361."/>
+        <meta name="keywords" content="Federación Repositorios de Objetos de Aprendizaje, Objetos de Aprendizaje, Universidad Nacional de Colombia, Manizales, Material Educativo, Estilos de aprendizaje, Recursos educativos, Educación, IEEE-LOM, Metadatos, gpca" />
         <script type="text/javascript">
 
             var _gaq = _gaq || [];
@@ -40,14 +40,14 @@
         </script>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title><?php echo $title ?> | FROAC </title>
+        <title><?php echo $title ?> | gpca </title>
 
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/froac/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="<?php echo base_url() ?>css/gpca/style.css" type="text/css" media="screen" />
         <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
         <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
 
 
-        <script type="text/javascript" src="<?php echo base_url() ?>/css/froac/script.js"></script>
+        <script type="text/javascript" src="<?php echo base_url() ?>/css/gpca/script.js"></script>
         <style>
             /* div container containing the form  */
             #searchContainer {
@@ -79,14 +79,14 @@
                 font-size:0;
                 text-indent:-999px;
                 color: transparent;
-                background: url(<?php echo base_url() ?>/css/froac/images/ico-search.png) no-repeat #E95A07 center;
+                background: url(<?php echo base_url() ?>/css/gpca/images/ico-search.png) no-repeat #E95A07 center;
                 border: 1px solid #E95A07;
                 -moz-border-radius: 2px;
                 -webkit-border-radius: 2px;
             }
             /* Style the search button hover state */
             #submit:hover {
-                background: url(<?php echo base_url() ?>/css/froac/images/ico-search.png) no-repeat center #E95A07;
+                background: url(<?php echo base_url() ?>/css/gpca/images/ico-search.png) no-repeat center #E95A07;
                 border: 1px solid #2F5BB7;
             }
             /* Clear floats */

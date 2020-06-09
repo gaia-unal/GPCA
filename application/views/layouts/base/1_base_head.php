@@ -6,9 +6,9 @@
         <meta name="description" content="">
         <meta name="author" content="Mosaddek">
         <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-         <link href="<?php echo base_url() ?>/img/frog1.png" rel="shortcut icon" />
-        <!--<link rel="shortcut icon" href="img/favicon.png">-->
-        <title>FROAC</title>
+        <link rel="shortcut icon" href="img/favicon.png">
+         <link href="<?php echo base_url() ?>/asset/img/gpca.png" rel="icon" />
+        <title>Guías Prácticas de Código Accesible</title>
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo base_url() ?>asset/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,6 @@
           <script src="js/respond.min.js"></script>
 
         <![endif]-->
-          <link href="<?php echo base_url() ?>/asset/img/frog1.png" rel="icon" />
     </head>
 
     <body>

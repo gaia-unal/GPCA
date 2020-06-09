@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+s<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/froacn/';
-//$config['base_url']	= 'http://froac.manizales.unal.edu.co/froacn/';
+//$config['base_url']	= 'http://localhost/tcc137/';
+$config['base_url']	= 'http://gaia.manizales.unal.edu.co/gpca/';
 /*
 |--------------------------------------------------------------------------
 | Index File

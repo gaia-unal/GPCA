@@ -48,7 +48,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
-    font-size:13px;
+    font-size:15px;
 }
 
 ul li {
@@ -198,10 +198,10 @@ a, a:hover, a:focus {
 /*sidebar navigation*/
 
 #sidebar {
-    width: 210px;
+    width: 230px;
     height: 100%;
     position: fixed;
-    background: #2a3542;
+    background: #fff;;
 }
 
 #sidebar ul li {
@@ -229,6 +229,11 @@ a, a:hover, a:focus {
     right:10px;
     top:15px;
 }
+
+.navigation ul {
+    background-color: #e7e7e7;
+    counter-reset: navli;
+}
 .active .dcjq-icon {
     background: url(../img/nav-expand.png) no-repeat bottom;
     border-radius:3px;
@@ -247,7 +252,7 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 }
 
 ul.sidebar-menu {
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 #sidebar > ul > li > ul.sub {
@@ -309,10 +314,10 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #aeb2b7;
+    color: #224b7c;
     text-decoration: none;
     display: block;
-    padding: 15px 0 15px 10px;
+    padding: 10px 0 5px 10px;
     font-size: 12px;
     outline: none;
     -webkit-transition: all 0.3s ease;
@@ -370,7 +375,7 @@ ul.sidebar-menu li a.active i {
 }
 
 .header {
-    position: absolute;
+    position: inherit;
     left: 0;
     right: 0;
     z-index: 10;
@@ -403,7 +408,7 @@ a.logo:hover, a.logo:focus {
 }
 
 a.logo span {
-    color: #039700;
+    color: #10630e;
 }
 
 

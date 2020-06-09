@@ -33,6 +33,6 @@
 
     <footer>
         <hr />
-        <p><strong>Copyright &copy; 2013  FROAC</strong></p>
+        <p><strong>Copyright &copy; 2013  gpca</strong></p>
     </footer>
 </aside><!-- end of sidebar -->

@@ -65,7 +65,7 @@
                           <span>Acerca de</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="basic_table.html">FROAC</a></li>
+                          <li><a  href="basic_table.html">gpca</a></li>
                           <li><a  href="responsive_table.html">GloAR</a></li>
                           <li><a  href="dynamic_table.html">GAIA</a></li>
                       </ul>

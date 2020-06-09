@@ -3,7 +3,7 @@
 <section id="main-content">
     <section class="wrapper">
         <header class="panel-heading">
-            Resumen de FROAC</b>
+            Resumen de gpca</b>
         </header>
 <br>
         <div class="row state-overview" id="info">

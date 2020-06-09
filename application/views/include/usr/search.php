@@ -25,7 +25,7 @@
 
 </script>
 <br><br><br><div class="art-post-inner art-article">
-    <div><h2 class="art-postheader"  align="center">Buscar en FROAC</h2>
+    <div><h2 class="art-postheader"  align="center">Buscar en gpca</h2>
 
         <div class="art-postcontent">
             <div id="searchContainer">
